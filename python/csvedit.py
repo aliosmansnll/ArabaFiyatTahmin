@@ -37,3 +37,4 @@ except KeyError:
 
 dataFrame2 = dataFrame2[sorted(dataFrame2.columns)]    # sütunlari ayni siraya getiriyoruz
 dataFrame2.to_csv(dosya2,index=False)
+

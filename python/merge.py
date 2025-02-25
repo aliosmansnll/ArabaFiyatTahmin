@@ -34,3 +34,4 @@ dataFrame = dataFrame.rename(columns={'year':'_year'})
 dataFrame = dataFrame[sorted(dataFrame.columns)]
 dataFrame.to_csv(r'C:\Users\alios\OneDrive\Masaüstü\VS Code Projects\ArabaFiyatTahmin\datachanged\mergeddata.csv',index=False)
 
+
